@@ -1,5 +1,5 @@
 # Decodificador de Textos
-![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
+[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](julianaferreira-dev.github.io/)
 
 ![Layout do projeto](https://github.com/julianaferreira-dev/julianaferreira-dev.github.io/assets/96956180/273d2ff8-d1be-4c10-9e16-29a3218e80c8)
 
