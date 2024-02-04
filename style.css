@@ -226,7 +226,7 @@ main {
 @media screen and (max-width: 768px) {
     
     .logo {
-        content: url('/assets/logo-menor.svg');
+        content: url('./assets/logo-menor.svg');
         height: 48px;
         padding: 73.42px 696.91px 0px 40px;;
         width: 32px;
@@ -311,7 +311,7 @@ main {
 @media screen and (max-width: 375px) {
     
     .logo {
-        content: url('/assets/logo-menor.svg');
+        content: url('./assets/logo-menor.svg');
         height: 48px;
         padding: 24px 327px 0px 16px;;
         width: 32px;
