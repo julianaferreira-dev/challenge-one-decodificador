@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Textos</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/assets/logo.svg" alt="Logo da Alura">
+    </header>
+
+    <main>
+
+        <div class="containers">
+
+            <section class="container1">
+                <textarea class="container1__entrada" model="input" id="entradaDoTexto"
+                    placeholder="Digite seu texto"></textarea>
+                <div class="container1__conteudo">
+                    <img class="container1__imagem" src="/assets/botao.svg" alt="Botão de atenção">
+                    <p class="container1__texto">Apenas letras minúsculas e sem acento.</p>
+                </div>
+
+                <div class="container1__botoes">
+                    <button onclick="criptografarTexto()" class="botoes__criptografar" id="botaoCriptografar">Criptografar</button>
+                    <button onclick="descriptografarTexto()" class="botoes__descriptografar" id="botaoDescriptografar">Descriptografar</button>
+                </div>
+            </section>
+        
+            <section class="container2">
+                <textarea readonly class="container2__saida" model="input" id="saidaDoTexto" placeholder=""></textarea>
+                <img class="container2__imagem" src="/assets/imagem.svg" id="enabled"
+                    alt="Imagem de um boneco usando uma lupa">
+                <p class="container2__texto1" id="texto1">Nenhuma mensagem encontrada</p>
+                <p class="container2__texto2" id="texto2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <div class="container2__botao">
+                        <button onclick="copiarTexto()" class="container2__botao__copiar" id="botaoCopiar">Copiar</button>
+                    </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer >
+        <div class="rodape">
+            <p class="rodape__conteudo">Desenvolvido por <b>Juliana Ferreira</b> | 2024</p>
+        </div>
+    </footer>
+
+    <script src="/index.js"></script>
+    
+</body>
+
+</html>
